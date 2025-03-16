@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Pictures/assest"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "amazon"
+	}
+}
