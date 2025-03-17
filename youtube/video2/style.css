@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    
+    border: border-box;
+
+}
+body{
+    padding-top: 80px;
+    padding-left: 80px;
+    height: 1000px;
+}
+
+.header{
+    display: flex;
+    height: 55px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width:  1px  ;
+    border-bottom-style: solid ;
+    border-bottom-color: gray ;
+    z-index: 100;
+  
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.bars{
+    font-size: 18px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.logo{
+    font-size: 25px;
+    
+}
+.middle-section{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.right-section{
+    width: 200px;
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.create{
+   
+   
+    height: 70%;
+    width: 90px;
+    border-radius: 30px;
+    border: none;
+    
+}
+
+.dp{
+    /* width: 40px; */
+    height: 40px;
+    border-radius: 100px;
+    
+}
+
+.sidebar {
+    position: fixed;
+    top: 55px;
+    left: 0px;
+    bottom: 0;
+    background-color: white;
+    width: 72px;
+
+    
+   
+
+}
+
+.sidebar-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 76px;
+    margin-bottom: 1px;
+}
+.sidebar-link i{
+    font-size: x-large;
+    
+}
+.sidebar-link:hover{
+    background-color: lightgray;
+}
+
+.search-bar{
+    flex: 1;
+    height: 23px;
+    padding-left: 10px;
+    font-size: 16px;
+    border:  1px solid rgb(192, 192, 192);
+    box-shadow: inset 1px 2px 5px rgba(239, 238, 238, 0.5);
+}
+
+.sbutton{
+    font-size: 20px;
+    border: 1px,solid,rgb(192, 192, 192);
+    margin-left: -20px;
+}
+.vbutton{
+    font-size: 20px;
+    
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgb(242, 235, 235);
+    border: none;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 10px;
+    
+    gap: 30px;
+    font-size: x-large;
+    padding-bottom: 100px;
+}
+
